@@ -1,0 +1,49 @@
+.add-employee-container {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  font-family: "Poppins", sans-serif;
+}
+
+.add-employee-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #182848;
+}
+
+.add-employee-container form label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.add-employee-container input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 4px;
+  font-size: 1rem;
+}
+
+.add-employee-container button {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #4c0316, #182848);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.add-employee-container button:hover {
+  background: linear-gradient(90deg, #6f2929, #32518f);
+}

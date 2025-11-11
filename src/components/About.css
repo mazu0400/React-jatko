@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+}
+.about-container-box {
+  border-radius: 30px;
+  margin-top: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #4c0316, #182848);
+}
+.about-container h2,
+p {
+  color: rgb(226, 226, 226);
+}

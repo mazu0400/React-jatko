@@ -1,13 +1,13 @@
-// src/components/Header.js
-import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
-function Header() {
+export default function Header() {
   return (
     <header className="header">
-      <h1>HR App</h1>
+      <nav>
+        <Link to="/">Home</Link> | <Link to="/add">Add Employee</Link> |{" "}
+        <Link to="/about">About</Link>
+      </nav>
     </header>
   );
 }
-
-export default Header;

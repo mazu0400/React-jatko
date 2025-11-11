@@ -1,28 +1,25 @@
-// src/components/Person.js
-import React from "react";
 import "./Person.css";
 
-function Person({ name, title, salary, phone, email, animal }) {
+export default function Person({ employee, onDelete }) {
   return (
     <div className="person-card">
-      <h2>{name}</h2>
+      <h3>{employee.name}</h3>
       <p>
-        <strong>Title:</strong> {title}
+        <strong>Title:</strong> {employee.title}
       </p>
       <p>
-        <strong>Salary:</strong> ${salary}
+        <strong>Salary:</strong> ${employee.salary}
       </p>
       <p>
-        <strong>Phone:</strong> {phone}
+        <strong>Email:</strong> {employee.email}
       </p>
       <p>
-        <strong>Email:</strong> {email}
+        <strong>Skills:</strong> {employee.skills.join(", ")}
       </p>
-      <p>
-        <strong>Animal:</strong> {animal}
-      </p>
+
+      <button className="delete-btn" onClick={() => onDelete(employee.id)}>
+        Poista
+      </button>
     </div>
   );
 }
-
-export default Person;

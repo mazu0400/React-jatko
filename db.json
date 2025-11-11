@@ -1,39 +1,87 @@
 {
-  "persons": [
+  "employees": [
     {
-      "name": "Ada Lovelace",
-      "number": "39-44-5323523",
-      "id": "2"
+      "id": "2",
+      "name": "Mikko Korhonen",
+      "title": "Software Developer",
+      "salary": 4800,
+      "phone": "050-2345678",
+      "email": "mikko.korhonen@example.com",
+      "animal": "Dog",
+      "startDate": "2020-08-15",
+      "location": "Tampere",
+      "department": "IT",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js"
+      ]
     },
     {
-      "name": "Dan Abramov",
-      "number": "12-43-234345",
-      "id": "3"
+      "id": "3",
+      "name": "Sara Lehtonen",
+      "title": "Marketing Specialist",
+      "salary": 3900,
+      "phone": "041-9876543",
+      "email": "sara.lehtonen@example.com",
+      "animal": "Cat",
+      "startDate": "2019-03-20",
+      "location": "Espoo",
+      "department": "Marketing",
+      "skills": [
+        "SEO",
+        "Content Creation",
+        "Analytics"
+      ]
     },
     {
-      "name": "Mary Poppendieck",
-      "number": "39-23-6423122",
-      "id": "4"
+      "id": "4",
+      "name": "Antti Niemi",
+      "title": "UX Designer",
+      "salary": 4500,
+      "phone": "040-5556667",
+      "email": "antti.niemi@example.com",
+      "animal": "Fox",
+      "startDate": "2024-08-10",
+      "location": "Helsinki",
+      "department": "Design",
+      "skills": [
+        "Figma",
+        "Prototyping",
+        "User Research"
+      ]
     },
     {
-      "id": "ab5e",
-      "name": "jjsjaaj",
-      "number": "8092882332"
+      "id": "5",
+      "name": "Laura Salmi",
+      "title": "Finance Manager",
+      "salary": 5200,
+      "phone": "040-4441234",
+      "email": "laura.salmi@example.com",
+      "animal": "Elephant",
+      "startDate": "2014-10-01",
+      "location": "Turku",
+      "department": "Finance",
+      "skills": [
+        "Budgeting",
+        "Forecasting",
+        "Excel"
+      ]
     },
     {
-      "id": "9fdd",
-      "name": "efelwqhflwfe",
-      "number": "43242342"
-    },
-    {
-      "id": "c035",
-      "name": "atro timonen",
-      "number": "84302804828"
-    },
-    {
-      "id": "32e4",
-      "name": "Arto Hellas",
-      "number": "040909000"
+      "id": 1762867181931,
+      "name": "matias tolvanen",
+      "title": "ssdsd",
+      "salary": "3000",
+      "phone": "0408014606",
+      "email": "matias.tolvanen13@gmail.com",
+      "animal": "cat",
+      "startDate": "18082",
+      "location": "helsinki",
+      "department": "taito",
+      "skills": [
+        "devaaja"
+      ]
     }
   ]
 }
