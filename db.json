@@ -11,11 +11,7 @@
       "startDate": "2020-08-15",
       "location": "Tampere",
       "department": "IT",
-      "skills": [
-        "JavaScript",
-        "React",
-        "Node.js"
-      ]
+      "skills": ["JavaScript", "React", "Node.js"]
     },
     {
       "id": "3",
@@ -28,11 +24,7 @@
       "startDate": "2019-03-20",
       "location": "Espoo",
       "department": "Marketing",
-      "skills": [
-        "SEO",
-        "Content Creation",
-        "Analytics"
-      ]
+      "skills": ["SEO", "Content Creation", "Analytics"]
     },
     {
       "id": "4",
@@ -45,11 +37,7 @@
       "startDate": "2024-08-10",
       "location": "Helsinki",
       "department": "Design",
-      "skills": [
-        "Figma",
-        "Prototyping",
-        "User Research"
-      ]
+      "skills": ["Figma", "Prototyping", "User Research"]
     },
     {
       "id": "5",
@@ -62,11 +50,7 @@
       "startDate": "2014-10-01",
       "location": "Turku",
       "department": "Finance",
-      "skills": [
-        "Budgeting",
-        "Forecasting",
-        "Excel"
-      ]
+      "skills": ["Budgeting", "Forecasting", "Excel"]
     },
     {
       "id": 1762867181931,
@@ -79,9 +63,7 @@
       "startDate": "18082",
       "location": "helsinki",
       "department": "taito",
-      "skills": [
-        "devaaja"
-      ]
+      "skills": ["devaaja"]
     }
   ]
 }
