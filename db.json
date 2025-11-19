@@ -1,69 +1,296 @@
 {
   "employees": [
     {
-      "id": "2",
-      "name": "Mikko Korhonen",
-      "title": "Software Developer",
-      "salary": 4800,
-      "phone": "050-2345678",
-      "email": "mikko.korhonen@example.com",
+      "name": "Anna Korhonen",
+      "title": "Backend Developer",
+      "salary": 600000,
+      "phone": "+358401234568",
+      "email": "anna.korhonen@example.com",
+      "startDate": "2018-07-01",
+      "location": "Espoo, Finland",
+      "department": "Engineering",
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
       "animal": "Dog",
-      "startDate": "2020-08-15",
-      "location": "Tampere",
-      "department": "IT",
-      "skills": ["JavaScript", "React", "Node.js"]
+      "id": "e40d",
+      "completed": false
     },
     {
-      "id": "3",
-      "name": "Sara Lehtonen",
+      "name": "Liisa Niemi",
+      "title": "Project Manager",
+      "salary": 5000,
+      "phone": "+358401234570",
+      "email": "liisa.niemi@example.com",
+      "startDate": "2016-11-05",
+      "location": "Helsinki, Finland",
+      "department": "Management",
+      "skills": [
+        "Agile",
+        "Scrum",
+        "Communication"
+      ],
+      "animal": "Fox",
+      "id": "8107",
+      "completed": true
+    },
+    {
+      "name": "Kalle Salmi",
+      "title": "DevOps Engineer",
+      "salary": 4600,
+      "phone": "+358401234571",
+      "email": "kalle.salmi@example.com",
+      "startDate": "2019-05-20",
+      "location": "Vantaa, Finland",
+      "department": "Engineering",
+      "skills": [
+        "AWS",
+        "Docker",
+        "Kubernetes"
+      ],
+      "animal": "Bear",
+      "id": "846a",
+      "completed": true
+    },
+    {
+      "name": "Mikko Koskinen",
+      "title": "Data Analyst",
+      "salary": 4300,
+      "phone": "+358401234573",
+      "email": "mikko.koskinen@example.com",
+      "startDate": "2017-09-12",
+      "location": "Helsinki, Finland",
+      "department": "Analytics",
+      "skills": [
+        "SQL",
+        "Python",
+        "Tableau"
+      ],
+      "animal": "Parrot",
+      "id": "8ba8"
+    },
+    {
+      "name": "Sari Laaksonen",
+      "title": "HR Specialist",
+      "salary": 3900,
+      "phone": "+358401234574",
+      "email": "sari.laaksonen@example.com",
+      "startDate": "2015-06-03",
+      "location": "Tampere, Finland",
+      "department": "Human Resources",
+      "skills": [
+        "Recruiting",
+        "Payroll",
+        "Employee Relations"
+      ],
+      "animal": "Owl",
+      "id": "12d7"
+    },
+    {
+      "name": "Antti Mäkinen",
+      "title": "Marketing Manager",
+      "salary": 4800,
+      "phone": "+358401234575",
+      "email": "antti.makinen@example.com",
+      "startDate": "2018-08-22",
+      "location": "Helsinki, Finland",
+      "department": "Marketing",
+      "skills": [
+        "SEO",
+        "Content Marketing",
+        "Social Media"
+      ],
+      "animal": "Dog",
+      "id": "ec7f"
+    },
+    {
+      "name": "Laura Kallio",
+      "title": "Content Writer",
+      "salary": 3600,
+      "phone": "+358401234576",
+      "email": "laura.kallio@example.com",
+      "startDate": "2020-04-15",
+      "location": "Espoo, Finland",
+      "department": "Marketing",
+      "skills": [
+        "Copywriting",
+        "Blogging",
+        "SEO"
+      ],
+      "animal": "Cat",
+      "id": "40d3"
+    },
+    {
+      "name": "Janne Rantanen",
+      "title": "Software Architect",
+      "salary": 5500,
+      "phone": "+358401234577",
+      "email": "janne.rantanen@example.com",
+      "startDate": "2014-12-01",
+      "location": "Helsinki, Finland",
+      "department": "Engineering",
+      "skills": [
+        "System Design",
+        "Microservices",
+        "Node.js"
+      ],
+      "animal": "Fox",
+      "id": "27a9"
+    },
+    {
+      "name": "Tiina Savolainen",
+      "title": "UI Developer",
+      "salary": 4100,
+      "phone": "+358401234578",
+      "email": "tiina.savolainen@example.com",
+      "startDate": "2019-03-18",
+      "location": "Vantaa, Finland",
+      "department": "Engineering",
+      "skills": [
+        "React",
+        "CSS",
+        "HTML"
+      ],
+      "animal": "Bear",
+      "id": "2de5"
+    },
+    {
+      "name": "Petri Jokinen",
+      "title": "Fullstack Developer",
+      "salary": 4700,
+      "phone": "+358401234579",
+      "email": "petri.jokinen@example.com",
+      "startDate": "2017-11-30",
+      "location": "Helsinki, Finland",
+      "department": "Engineering",
+      "skills": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "animal": "Tiger",
+      "id": "71a4"
+    },
+    {
+      "name": "Hanna Lehtonen",
+      "title": "Product Owner",
+      "salary": 5200,
+      "phone": "+358401234580",
+      "email": "hanna.lehtonen@example.com",
+      "startDate": "2016-05-25",
+      "location": "Espoo, Finland",
+      "department": "Management",
+      "skills": [
+        "Scrum",
+        "Agile",
+        "Leadership"
+      ],
+      "animal": "Parrot",
+      "id": "8ef4"
+    },
+    {
+      "name": "Eero Heikkinen",
+      "title": "DevOps Engineer",
+      "salary": 4600,
+      "phone": "+358401234581",
+      "email": "eero.heikkinen@example.com",
+      "startDate": "2018-09-14",
+      "location": "Tampere, Finland",
+      "department": "Engineering",
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "animal": "Owl",
+      "id": "013a"
+    },
+    {
+      "name": "Minna Salonen",
+      "title": "QA Engineer",
+      "salary": 4000,
+      "phone": "+358401234582",
+      "email": "minna.salonen@example.com",
+      "startDate": "2021-01-20",
+      "location": "Helsinki, Finland",
+      "department": "Quality Assurance",
+      "skills": [
+        "Selenium",
+        "Test Automation",
+        "Cypress"
+      ],
+      "animal": "Dog",
+      "id": "dfdf"
+    },
+    {
+      "name": "Juha Laakso",
+      "title": "Data Scientist",
+      "salary": 5000,
+      "phone": "+358401234583",
+      "email": "juha.laakso@example.com",
+      "startDate": "2017-07-07",
+      "location": "Vantaa, Finland",
+      "department": "Analytics",
+      "skills": [
+        "Python",
+        "SQL",
+        "Machine Learning"
+      ],
+      "animal": "Cat",
+      "id": "57f2"
+    },
+    {
+      "name": "Katja Niemelä",
+      "title": "HR Manager",
+      "salary": 4800,
+      "phone": "+358401234584",
+      "email": "katja.niemela@example.com",
+      "startDate": "2015-02-12",
+      "location": "Helsinki, Finland",
+      "department": "Human Resources",
+      "skills": [
+        "Recruiting",
+        "Payroll",
+        "Employee Relations"
+      ],
+      "animal": "Fox",
+      "id": "f1eb"
+    },
+    {
+      "name": "Timo Kosonen",
       "title": "Marketing Specialist",
       "salary": 3900,
-      "phone": "041-9876543",
-      "email": "sara.lehtonen@example.com",
-      "animal": "Cat",
-      "startDate": "2019-03-20",
-      "location": "Espoo",
+      "phone": "+358401234585",
+      "email": "timo.kosonen@example.com",
+      "startDate": "2020-10-05",
+      "location": "Espoo, Finland",
       "department": "Marketing",
-      "skills": ["SEO", "Content Creation", "Analytics"]
+      "skills": [
+        "Content Marketing",
+        "SEO",
+        "Social Media"
+      ],
+      "animal": "Bear",
+      "id": "9fb1"
     },
     {
-      "id": "4",
-      "name": "Antti Niemi",
-      "title": "UX Designer",
-      "salary": 4500,
-      "phone": "040-5556667",
-      "email": "antti.niemi@example.com",
-      "animal": "Fox",
-      "startDate": "2024-08-10",
-      "location": "Helsinki",
+      "name": "Riikka Laine",
+      "title": "UI/UX Designer",
+      "salary": 3800,
+      "phone": "+358401234586",
+      "email": "riikka.laine@example.com",
+      "startDate": "2022-06-01",
+      "location": "Tampere, Finland",
       "department": "Design",
-      "skills": ["Figma", "Prototyping", "User Research"]
-    },
-    {
-      "id": "5",
-      "name": "Laura Salmi",
-      "title": "Finance Manager",
-      "salary": 5200,
-      "phone": "040-4441234",
-      "email": "laura.salmi@example.com",
-      "animal": "Elephant",
-      "startDate": "2014-10-01",
-      "location": "Turku",
-      "department": "Finance",
-      "skills": ["Budgeting", "Forecasting", "Excel"]
-    },
-    {
-      "id": 1762867181931,
-      "name": "matias tolvanen",
-      "title": "ssdsd",
-      "salary": "3000",
-      "phone": "0408014606",
-      "email": "matias.tolvanen13@gmail.com",
-      "animal": "cat",
-      "startDate": "18082",
-      "location": "helsinki",
-      "department": "taito",
-      "skills": ["devaaja"]
+      "skills": [
+        "Figma",
+        "Adobe XD",
+        "Prototyping"
+      ],
+      "animal": "Tiger",
+      "id": "9734"
     }
   ]
 }

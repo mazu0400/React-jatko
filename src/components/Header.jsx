@@ -6,7 +6,7 @@ export default function Header() {
     <header className="header">
       <nav>
         <Link to="/">Home</Link> | <Link to="/add">Add Employee</Link> |{" "}
-        <Link to="/about">About</Link>
+        <Link to="/about">About</Link> | <Link to="/todos">Todos</Link>
       </nav>
     </header>
   );

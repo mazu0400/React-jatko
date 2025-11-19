@@ -6,6 +6,7 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+
   text-align: center;
 }
 .about-container-box {
@@ -17,5 +18,32 @@ body {
 }
 .about-container h2,
 p {
+  color: rgb(208, 208, 208);
+}
+.about-separator,
+.about-contact {
+  width: 40%;
+  border-radius: 30px;
+  margin-top: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #4c0316, #182848);
+}
+.about-separators {
+  width: 40%;
+  border-radius: 30px;
+  margin-top: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #4c0316, #182848);
+}
+.about-separators h3,
+.about-separator h3,
+.about-contact h3 {
+  color: rgb(208, 208, 208);
+}
+.about-separators li,
+.about-separator li,
+.about-contact li {
   color: rgb(226, 226, 226);
 }

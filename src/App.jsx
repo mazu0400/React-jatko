@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import PersonList from "./components/personlist";
 import AddEmployee from "./components/AddEmployee";
 import About from "./components/About";
+import Todos from "./components/Todos";
 
 function App() {
   const [employees, setEmployees] = useState([]);
@@ -23,7 +24,14 @@ function App() {
       .then((res) => setEmployees((prev) => [...prev, res.data]))
       .catch((err) => console.error("Virhe lisättäessä työntekijää:", err));
   };
+  const handleUpdateEmployee = (updated) => {
+    setEmployees((prev) =>
+      prev.map((emp) => (emp.id === updated.id ? updated : emp))
+    );
+  };
+
   const handleDeleteEmployee = (id) => {
+    console.log("Poistetaan ID:", id);
     const confirmed = window.confirm(
       "Haluatko varmasti poistaa tämän työntekijän?"
     );
@@ -46,6 +54,7 @@ function App() {
               <PersonList
                 employees={employees}
                 onDelete={handleDeleteEmployee}
+                onUpdate={handleUpdateEmployee}
               />
             }
           />
@@ -54,6 +63,7 @@ function App() {
             element={<AddEmployee onAddEmployee={handleAddEmployee} />}
           />
           <Route path="/about" element={<About />} />
+          <Route path="/todos" element={<Todos />} />
         </Routes>
       </main>
       <Footer />

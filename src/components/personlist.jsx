@@ -1,8 +1,9 @@
 import { useRef, useState, useEffect } from "react";
 import PersonCard from "./PersonCard";
 import "./Person.css";
+import Stats from "./Stats";
 
-export default function PersonList({ employees, onDelete }) {
+export default function PersonList({ employees, onDelete, onUpdate }) {
   const scrollRef = useRef(null);
   const [scrollPos, setScrollPos] = useState(0);
 
@@ -41,11 +42,18 @@ export default function PersonList({ employees, onDelete }) {
                   zIndex: employees.length - index,
                 }}
               >
-                <PersonCard employee={emp} onDelete={onDelete} />
+                <PersonCard
+                  employee={emp}
+                  onDelete={onDelete}
+                  onUpdate={onUpdate}
+                />
               </div>
             );
           })}
         </div>
+      </section>
+      <section className="stats-section">
+        <Stats employees={employees} />
       </section>
     </div>
   );

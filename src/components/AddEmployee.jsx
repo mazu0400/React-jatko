@@ -26,7 +26,6 @@ export default function AddEmployee({ onAddEmployee }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     const newEmployee = {
-      id: Date.now(),
       ...formData,
       skills: formData.skills.split(",").map((s) => s.trim()),
     };
