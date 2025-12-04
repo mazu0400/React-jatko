@@ -19,3 +19,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 BackEnd repositorio linkki  https://github.com/mazu0400/HrApp-Backend
+FrontEnd live linkki  https://mazu0400.github.io/React-jatko/
