@@ -13,14 +13,14 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/employees")
+      .get("https://hrapp-backend-u8iq.onrender.com/employees")
       .then((res) => setEmployees(res.data))
       .catch((err) => console.error("Virhe haettaessa työntekijöitä:", err));
   }, []);
 
   const handleAddEmployee = (newEmployee) => {
     axios
-      .post("http://localhost:3001/employees", newEmployee)
+      .post("https://hrapp-backend-u8iq.onrender.com/employees", newEmployee)
       .then((res) => setEmployees((prev) => [...prev, res.data]))
       .catch((err) => console.error("Virhe lisättäessä työntekijää:", err));
   };
@@ -37,7 +37,7 @@ function App() {
     );
     if (confirmed) {
       axios
-        .delete(`http://localhost:3001/employees/${id}`)
+        .delete(`https://hrapp-backend-u8iq.onrender.com/employees/${id}`)
         .then(() => setEmployees((prev) => prev.filter((emp) => emp.id !== id)))
         .catch((err) => console.error("Virhe poistettaessa työntekijää:", err));
     }

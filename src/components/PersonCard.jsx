@@ -39,7 +39,7 @@ export default function PersonCard({ employee, onDelete, onUpdate }) {
       };
 
       const res = await axios.patch(
-        `http://localhost:3001/employees/${employee.id}`,
+        `https://hrapp-backend-u8iq.onrender.com/employees/${employee.id}`,
         updatedEmployee
       );
 

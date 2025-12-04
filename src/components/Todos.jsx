@@ -10,7 +10,7 @@ export default function Todos() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/employees")
+      .get("https://hrapp-backend-u8iq.onrender.com/employees")
       .then((res) => {
         setEmployees(res.data);
       })
